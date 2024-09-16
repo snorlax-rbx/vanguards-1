@@ -1,0 +1,90 @@
+getgenv().Config = {
+    ["Misc"] = {
+        ["AutoExecute"] = true,
+        ["AutoReconnect"] = true,
+        ["PlaceAnywhere"] = false,
+        ["HideOnOpen"] = true
+    },
+    ["Webhook"] = {
+        ["Ping"] = false,
+        ["SecretPing"] = false,
+        ["URL"] = "https://ptb.discord.com/api/webhooks/1278766195415453858/_VLYerz8iI2TTd_ov2PgQPrHDTZwpYGK3ndE6k0r6hD3VaLSu0Ult4V4UZgS2fwB4z-o",
+        ["ID"] = 0,
+        ["Url"] = "",
+        ["Result"] = true
+    },
+    ["AutoWave"] = {
+        ["Leave"] = false,
+        ["SellUnits"] = false,
+        ["SellUnitsOnWave"] = 1,
+        ["Upgrade"] = false,
+        ["LeaveOnWave"] = 1,
+        ["SellFarms"] = false,
+        ["SellFarmsOnWave"] = 1,
+        ["UpgradeOnWave"] = 1
+    },
+    ["Macro"] = {
+        ["StepDelay"] = 1,
+        ["Default"] = "gokestarter",
+        ["RecordOptions"] = {},
+        ["Enabled"] = true,
+        ["Selected"] = {
+            ["Infinite"] = {
+                ["Sand Village"] = "",
+                ["Double Dungeon"] = "",
+                ["Planet Namak"] = ""
+            },
+            ["Challenge"] = {
+                ["Sand Village"] = "",
+                ["Double Dungeon"] = "",
+                ["Planet Namak"] = ""
+            },
+            ["LegendStage"] = {
+                ["Double Dungeon"] = "",
+                ["Sand Village"] = ""
+            },
+            ["Story"] = {
+                ["Sand Village"] = "",
+                ["Double Dungeon"] = "",
+                ["Planet Namak"] = ""
+            }
+        }
+    },
+    ["AutoChallenge"] = {
+        ["Enabled"] = false,
+        ["IgnoreMaps"] = {},
+        ["IgnoreChallenge"] = {}
+    },
+    ["AutoStart"] = true,
+    ["AutoStartDelay"] = 3,
+    ["AutoJoin"] = {
+        ["Difficulty"] = "Normal",
+        ["Act"] = "Act1",
+        ["Map"] = "Planet Namak",
+        ["Mode"] = "Story",
+        ["FriendsOnly"] = true,
+        ["Enabled"] = true
+    },
+    ["AutoClaimQuest"] = true,
+    ["UI"] = {
+        ["ShowUserInfo"] = false,
+        ["Notification"] = true,
+        ["Scale"] = 0.75
+    },
+    ["AutoClaimBattlepass"] = true,
+    ["AutoAbility"] = {
+        ["Enabled"] = false,
+        ["SelectedUnits"] = {},
+        ["Mode"] = "",
+        ["Wave"] = 0
+    },
+    ["Auto"] = {
+        ["Skip"] = true,
+        ["Next"] = false,
+        ["Replay"] = true,
+        ["Leave"] = false,
+        ["Speed"] = false
+    }
+}
+script_key="ANDSVCAHeFNrTFdYpMFtOaZiPCbRypnV";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/PremiumBuangHub.lua"))()
