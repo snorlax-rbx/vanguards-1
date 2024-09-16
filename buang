@@ -25,7 +25,7 @@ getgenv().Config = {
     },
     ["Macro"] = {
         ["StepDelay"] = 1,
-        ["Default"] = "gokestarter",
+        ["Default"] = "goku",
         ["RecordOptions"] = {},
         ["Enabled"] = true,
         ["Selected"] = {
